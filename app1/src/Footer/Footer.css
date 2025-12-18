@@ -1,0 +1,17 @@
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+footer {
+    height: 50vh;
+    background-color: var(--second-color);
+}
+
+.top-sec {
+    height: 85%;
+}
+
+.bot-sec {
+    background-color: #1a252f;
+}

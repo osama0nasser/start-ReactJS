@@ -1,0 +1,24 @@
+:root {
+    --main-color: #1abc9c;
+    --second-color: #2c3e50;
+}
+
+nav {
+    height: 15vh;
+    background-color: var(--second-color);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+nav.scrolled {
+    height: 10vh;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.active {
+    background-color: var(--main-color) !important;
+    border-radius: 10px;
+}

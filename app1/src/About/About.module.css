@@ -1,0 +1,28 @@
+.about {
+    height: 97vh;
+    background-color: #1abc9c;
+    padding-top: 15vh;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.star {
+  color: white;
+  font-size: 24px;
+  margin: 0 15px;
+}
+
+.parags {
+  max-width: 850px;
+}
